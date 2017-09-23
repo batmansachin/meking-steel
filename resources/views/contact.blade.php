@@ -77,14 +77,16 @@
             <h2><span class="small">contact us</span>If you have any questions, just fill in the contact form, and we
                 will answer you shortly.</h2>
 
-            <form data-form-output="form-output-global" data-form-type="contact" method="post"
-                  action="bat/rd-mailform.php" class="rd-mailform text-left">
+            <form  method="post"
+                  action="{{route('submit-query')}}" class="rd-mailform text-left">
+                  {{ csrf_field() }}
                 <div class="range offset-top-40 offset-md-top-60">
                     <div class="cell-lg-4 cell-md-6">
                         <div class="form-group postfix-xl-right-40">
                             <label for="contact-name" class="form-label">Name *</label>
                             <input id="contact-name" type="text" name="name" data-constraints="@Required"
                                    class="form-control">
+
                         </div>
                         <div class="form-group postfix-xl-right-40">
                             <label for="contact-email" class="form-label">E-mail *</label>
@@ -112,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-form btn-default">Send message</button>
+                <input type="submit" class="btn btn-form btn-default" value="submit">
             </form>
         </div>
     </section>

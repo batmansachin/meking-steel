@@ -69,11 +69,13 @@
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="{{ route('sfs') }}">Space Frame Structure</a></li>
 {{--                                    <!-- <li><a href="{{ route('peb') }}">Pre Engineered Buildings</a></li> -->--}}
-                                    <li><a href="blog-grid.html">Grid Blog</a></li>
-                                    <li><a href="blog-masonry.html">Masonry Blog</a></li>
-                                    <li><a href="blog-line.html">Line Blog</a></li>
-                                    <li><a href="blog-post.html">Post Page</a></li>
-                                    <li><a href="news.html">In the News</a></li>
+                                    <li><a href="{{route('building-component')}}">Building Components</a></li>
+                                    <li><a href="{{route('structure-steel-buildings')}}">Structural Steel Buildings</a></li>
+                                    <li><a href="{{route('turnkey-construction-solutions')}}">Turnkey Construction Solutions</a></li>
+                                    <li><a href="{{route('product-literature')}}">Product Literature</a></li>
+                                    <li><a href="{{route('product-R&D')}}">Product R&D</a></li>
+                                    <li><a href="{{route('quality-assurance')}}">Quality Assurance</a></li>
+                                    <li><a href="{{route('PEB-basic-terms')}}">PEB Basic Terms</a></li>
                                 </ul>
                             </li>
 
