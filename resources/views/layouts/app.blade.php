@@ -79,6 +79,7 @@
                                 </ul>
                             </li>
 
+                            <li><a href="{{ route('careers') }}">Careers</a></li>
                             <li><a href="{{ route('contact') }}">Contact us</a></li>
                         </ul>
                     </div>

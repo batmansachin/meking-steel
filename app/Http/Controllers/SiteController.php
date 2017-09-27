@@ -59,4 +59,7 @@ class SiteController extends Controller
     public function PEBBasicTerms(){
         return view('pEBBasicTerms',['title' => 'PEB Basic Terms - Meking Steel']);
     }
+    public function careers(){
+        return view('careers',['title' => 'Careers - Meking Steel']);
+    }
 }

@@ -26,3 +26,4 @@ route::get('quality-assurance','SiteController@qualityassurance')->name('quality
 
 route::get('PEB-basic-terms','SiteController@PEBBasicTerms')->name('PEB-basic-terms');
 
+route::get('careers','SiteController@careers')->name('careers');
