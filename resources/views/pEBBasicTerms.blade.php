@@ -25,11 +25,11 @@
                 <div class="cell-md-8 cell-lg-7 cell-xl-6">
                     <div class="inset-md-right-30 inset-lg-right-0">
                         <h1>PEB Basic Terms</h1>
-                        <p>Zamil Steel is committed to produce contents that contributes to the increased awareness of all parties involved in the purchase of a Zamil Steel pre-engineered steel building. Every effort is made to update this contents.</p>
+                        <p>Meking Steel is committed to produce contents that contributes to the increased awareness of all parties involved in the purchase of a Meking Steel pre-engineered steel building. Every effort is made to update this contents.</p>
                         <div class="well-custom">
                             <h5>Completed over 200 projects in 7 states - on time and within budget.</h5>
                         </div>
-                        <p>Zamil Steel is committed to produce contents that contributes to the increased awareness of all parties involved in the purchase of a Zamil Steel pre-engineered steel building. Every effort is made to update this contents.</p>
+                        <p>Meking Steel is committed to produce contents that contributes to the increased awareness of all parties involved in the purchase of a Meking Steel pre-engineered steel building. Every effort is made to update this contents.</p>
                         
                     </div>
                 </div>
@@ -51,18 +51,18 @@
     <div class="shell">
         <h2>View some of our recent projects</h2>
         <div class="range">
-            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/team-member-02-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Residential House at Southward St.</a></h6>
+             <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/rp1.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Residential House at Pune.</a></h6>
                 <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">House</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/team-member-03-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Eastwood Hotel</a></h6>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/rp2.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Eastwood Hotel Pune</a></h6>
                 <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">Hotel</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/team-member-04-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">California Mega Mall</a></h6>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/rp3.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Pune Mega Mall</a></h6>
                 <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">Mall</a>
                 </p>
             </div>

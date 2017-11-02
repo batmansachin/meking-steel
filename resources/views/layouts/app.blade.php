@@ -2,7 +2,8 @@
 <html lang="en" class="wide wow-animation">
 <head>
     <!-- Site Title-->
-    <title>{{ $title }}</title>
+    <?php $title = 'MEKING STEEL' ?>
+    <title>{{ $title }}</title> 
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport"
           content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -52,10 +53,9 @@
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span>
                         </button>
                         <!-- RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><span
-                                        class="brand-logo veil">MEKING STEEL</span><img
-                                        src="{{ URL::asset('public/res/images/logo-header.png') }}" width="241"
-                                        height="43" alt="MEKING STEEL"></a>
+                        <div class="rd-navbar-brand"><a href="#" class="brand-name"><img
+                                        src="{{ URL::asset('public/res/images/Logo.jpg') }}" width="100"
+                                        height="43" alt="MEKING STEEL"><span style="color: #845f57; font-size: 24px">MEKING STEEL</span></a>
                         </div>
                     </div>
                     <div class="rd-navbar-nav-wrap">
@@ -67,7 +67,7 @@
 
                             <li><a href="{{ route('services') }}">Products</a>
                                 <ul class="rd-navbar-dropdown">
-                                    <li><a href="{{ route('sfs') }}">Space Frame Structure</a></li>
+                                    
 {{--                                    <!-- <li><a href="{{ route('peb') }}">Pre Engineered Buildings</a></li> -->--}}
                                     <li><a href="{{route('building-component')}}">Building Components</a></li>
                                     <li><a href="{{route('structure-steel-buildings')}}">Structural Steel Buildings</a></li>

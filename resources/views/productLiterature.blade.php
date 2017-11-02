@@ -29,9 +29,9 @@
                         <div class="well-custom">
                             <h5>Completed over 200 projects in 7 states - on time and within budget.</h5>
                         </div>
-                        <img src="{{ URL::to('public/res/images/blog-masonry-01-560x250.jpg') }}" style="width: 675px; height: 200px">
-                        <img src="{{ URL::to('public/res/images/blog-masonry-04-560x370.jpg') }}" style="width: 675px; height: 200px">
-                        <img src="{{ URL::to('public/res/images/blog-masonry-06-560x250.jpg') }}" style="width: 675px; height: 200px">
+                        <img src="{{ URL::to('public/res/images/pl1.jpg') }}" style="width: 675px; height: 200px">
+                        <img src="{{ URL::to('public/res/images/pl2.jpg') }}" style="width: 675px; height: 200px">
+                        <img src="{{ URL::to('public/res/images/pl3.jpg') }}" style="width: 675px; height: 200px">
                     </div>
                 </div>
                 <div class="cell-md-4 cell-lg-4 cell-xl-3">
@@ -52,19 +52,19 @@
     <div class="shell">
         <h2>View some of our recent projects</h2>
         <div class="range">
-            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/team-member-02-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Residential House at Southward St.</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">House</a>
+             <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/rp1.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Residential House at Pune.</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">House</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/team-member-03-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Eastwood Hotel</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Hotel</a>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/rp2.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Eastwood Hotel Pune</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">Hotel</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/team-member-04-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">California Mega Mall</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Mall</a>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/rp3.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Pune Mega Mall</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">Mall</a>
                 </p>
             </div>
         </div>

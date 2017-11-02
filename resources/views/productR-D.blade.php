@@ -25,16 +25,16 @@
                 <div class="cell-md-8 cell-lg-7 cell-xl-6">
                     <div class="inset-md-right-30 inset-lg-right-0">
                         <h1>Research and Development</h1>
-                        <p>Zamil Steel Industries promotes a culture rich in new ideas and innovation. Our Research and Development Department constantly engaged in product innovation.</p>
+                        <p>Meking Steel Industries promotes a culture rich in new ideas and innovation. Our Research and Development Department constantly engaged in product innovation.</p>
                         <div class="well-custom">
                             <h5>Completed over 200 projects in 7 states - on time and within budget.</h5>
                         </div>
                         
                         <p>The talented group of engineers and architects that makes up our R&D Department work within a culture that fosters idea generation and perfection to the fullest. The end result is a consistent flow of design, process and product innovations, bolstering Zamil Steel’s position as a global industry leader.</p>
-                        <img src="{{ URL::to('public/res/images/IMG-0429.JPG') }}" style="width: 675px; height: 350px">
-                        <p>When you choose Zamil Steel Pre-Engineered Buildings, you can be certain that your project will benefit from the dedicated efforts of our Product Research and Development Department.</p>
+                        <img src="{{ URL::to('public/res/images/prd.JPG') }}" style="width: 675px; height: 350px">
+                        <p>When you choose Meking Steel Pre-Engineered Buildings, you can be certain that your project will benefit from the dedicated efforts of our Product Research and Development Department.</p>
                         <p>We apply new ideas to every area of the company.</p>
-                        <p>The following are just a few of the core initiatives that occupy the resources and talents of the Zamil Steel R&D department:</p>
+                        <p>The following are just a few of the core initiatives that occupy the resources and talents of the Meking Steel R&D department:</p>
                         <p>
                             <li>Refine details to constantly raise economical, safety and aesthetic standards</li>
                             <li>Develop software that improves customer service</li>
@@ -43,7 +43,7 @@
                         <br>
                         <p>We consistently focus on learning and training.</p>
                         <br>
-                        <p>Zamil Steel R&D professionals know that innovation needs to be shared throughout the company to achieve maximum success. That’s why learning is an ongoing activity throughout the Zamil Steel organization. The Products Research & Development Department engages in continuous training programs for all technical staff, in addition to providing extensive technical raining to new sales executives and engineers.SearchTry our Virtualbuilding Painter PEB Awareness A main advantage of steel frames is their capability of covering huge spans with lesser cost than concrete frames.Whats New?  Articles (6) Press Releases (13) Trade Shows and Exhibitions (22) Follow us Twitter Linkedin Facebook </p>
+                        <p>Meking Steel R&D professionals know that innovation needs to be shared throughout the company to achieve maximum success. That’s why learning is an ongoing activity throughout the Meking Steel organization. The Products Research & Development Department engages in continuous training programs for all technical staff, in addition to providing extensive technical raining to new sales executives and engineers.SearchTry our Virtualbuilding Painter PEB Awareness A main advantage of steel frames is their capability of covering huge spans with lesser cost than concrete frames.Whats New?  Articles (6) Press Releases (13) Trade Shows and Exhibitions (22) Follow us Twitter Linkedin Facebook </p>
                     </div>
                 </div>
                 <div class="cell-md-4 cell-lg-4 cell-xl-3">
@@ -64,19 +64,19 @@
     <div class="shell">
         <h2>View some of our recent projects</h2>
         <div class="range">
-            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/team-member-02-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Residential House at Southward St.</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">House</a>
+            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/rp1.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Residential House at Pune.</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">House</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/team-member-03-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Eastwood Hotel</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Hotel</a>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/rp2.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Eastwood Hotel Pune</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">Hotel</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/team-member-04-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">California Mega Mall</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Mall</a>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/rp3.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Pune Mega Mall</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">Mall</a>
                 </p>
             </div>
         </div>

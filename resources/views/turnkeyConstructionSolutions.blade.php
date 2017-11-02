@@ -29,6 +29,7 @@
                         <div class="well-custom">
                             <h5>Completed over 200 projects in 7 states - on time and within budget.</h5>
                         </div>
+                        <img src="{{ URL::to('public/res/images/tcs.jpg') }}" style="width: 675px; height: 500px">
                         <p>General Contracting is the contract type often used when the project design is complete. General Contractors typically bid against each other and the owner selects the lowest or best-value bid. Constructo has the right relationships with the right people. We can identify the most qualified subcontractors, specialists and suppliers to help you achieve your vision. Constructo is the on-site manager for the architect and owner, and is responsible for managing time and costs.</p>
                         <p>We think not only about the 'big picture,' but we make sure to think about all the little details that even the biggest projects can incorporate. Constructo puts your dreams into reality by building something that was originally only scribbled on paper. As dreams come to life, Constructo keeps you in the know and ensures that you are well informed about what is going on throughout the entirety of the project.</p>
                     </div>
@@ -51,19 +52,19 @@
     <div class="shell">
         <h2>View some of our recent projects</h2>
         <div class="range">
-            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/team-member-02-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Residential House at Southward St.</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">House</a>
+            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/rp1.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Residential House at Pune.</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">House</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/team-member-03-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Eastwood Hotel</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Hotel</a>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/rp2.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Eastwood Hotel Pune</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">Hotel</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/team-member-04-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">California Mega Mall</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Mall</a>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/rp3.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Pune Mega Mall</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">Mall</a>
                 </p>
             </div>
         </div>

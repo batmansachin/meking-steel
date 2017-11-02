@@ -10405,6 +10405,8 @@ html.lt-ie-10 .range > [class*="cell-xxl-preffix-"] {
 @media (min-width: 992px) {
   html:not(.lt-ie10) .text-md-left {
     text-align: left;
+    text-align: justify;
+
   }
   html:not(.lt-ie10) .text-md-center {
     text-align: center;
@@ -10661,7 +10663,7 @@ h1,
   h1,
   .h1 {
     line-height: 1.07143;
-    font-size: 84px;
+    font-size: 45px; /*font-size: 84px; */
   }
 }
 
@@ -10713,7 +10715,10 @@ h5,
 @media (min-width: 768px) {
   h5,
   .h5 {
-    font-size: 24px;
+    font-size: 18px;
+    text-align: justify;
+
+    font-style: italic;
     line-height: 1.33333;
   }
 }
@@ -24004,8 +24009,8 @@ textarea.form-control-sm {
     padding-bottom: 55px;
   }
   .section-sm-75 {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 35px; /*75px*/
+    padding-bottom: 35px; /*75px*/
   }
   .section-sm-80 {
     padding-top: 80px;
@@ -24071,7 +24076,7 @@ textarea.form-control-sm {
     padding-bottom: 80px;
   }
   .section-md-100 {
-    padding-top: 100px;
+   /* padding-top: 100px;* --BY Sachin Kumar */
     padding-bottom: 100px;
   }
   .section-md-120 {
@@ -24134,8 +24139,8 @@ textarea.form-control-sm {
     padding-bottom: 100px;
   }
   .section-lg-120 {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 60px; /*120px*/
+    padding-bottom: 60px;/*120px*/
   }
   .section-lg-130 {
     padding-top: 130px;
@@ -24146,8 +24151,8 @@ textarea.form-control-sm {
     padding-bottom: 140px;
   }
   .section-lg-150 {
-    padding-top: 150px;
-    padding-bottom: 150px;
+   /* padding-top: 150px; */
+    padding-bottom: 50px; /*150px*/
   }
   .section-lg-200 {
     padding-top: 200px;
@@ -24442,10 +24447,10 @@ textarea.form-control-sm {
     padding-top: 130px;
   }
   .section-lg-top-140 {
-    padding-top: 140px;
+    padding-top: 40px; /*140px*/
   }
   .section-lg-top-150 {
-    padding-top: 150px;
+    padding-top: 50px; /*150px */
   }
   .section-lg-top-200 {
     padding-top: 200px;
@@ -38646,8 +38651,9 @@ html .page .isotope-filters .list-isotop > li > a:hover, html .page .isotope-fil
 
 @media (min-width: 1200px) {
   .rd-navbar-static .rd-navbar-inner {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    /* to avoid padding in header section */
+    padding-top: 15px;   /* padding-top: 70px; */
+    padding-bottom: 15px; /* padding-bottom: 70px; */
   }
 }
 
@@ -38719,7 +38725,7 @@ html .page .isotope-filters .list-isotop > li > a:hover, html .page .isotope-fil
   position: absolute;
   left: 0;
   z-index: 5;
-  width: 185px;
+  width: 250px;         /*width: 185px;*/
   padding: 15px 10px;
   margin-top: 30px;
   text-align: left;

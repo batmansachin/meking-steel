@@ -16,10 +16,7 @@ class SiteController extends Controller
     }
 
 
-    public function contact(){
-
-        return view('contact',['title'=>'Contact us - Meking Steel']);
-    }
+    
 
     public function submitquery(Request $Request){
         dd($Request->all());
@@ -32,7 +29,7 @@ class SiteController extends Controller
 
     public function sfs(){
 
-        return view('peb',['title'=>'Space Frame Structure - Meking Steel']);
+        return view('Space_frame_structure',['title'=>'Space Frame Structure - Meking Steel']);
     }
     public function aboutUs(){
 

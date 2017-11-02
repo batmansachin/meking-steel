@@ -12,7 +12,7 @@
 */
 
 Route::get('/','SiteController@index')->name('index');
-Route::get('contact-us','SiteController@contact')->name('contact');
+Route::get('contact-us','ContactController@contact')->name('contact');
 Route::post('submit-query','SiteController@submitquery')->name('submit-query');
 Route::get('services','SiteController@services')->name('services');
 Route::get('space-frame-structure','SiteController@sfs')->name('sfs');
@@ -27,3 +27,9 @@ route::get('quality-assurance','SiteController@qualityassurance')->name('quality
 route::get('PEB-basic-terms','SiteController@PEBBasicTerms')->name('PEB-basic-terms');
 
 route::get('careers','SiteController@careers')->name('careers');
+route::post('submit-query','ContactController@postContact')->name('submit-query');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+

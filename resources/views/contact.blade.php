@@ -74,8 +74,7 @@
     </section>
     <section class="section-50 section-md-75 section-md-100 section-lg-120 section-xl-150 bg-wild-sand">
         <div class="shell text-left">
-            <h2><span class="small">contact us</span>If you have any questions, just fill in the contact form, and we
-                will answer you shortly.</h2>
+            <h2><span class="small">contact us</span>If you have any questions, just fill in the contact form, and we will answer you shortly.</h2>
 
             <form  method="post"
                   action="{{route('submit-query')}}" class="rd-mailform text-left">
@@ -100,11 +99,7 @@
                             <input id="contact-company" type="text" name="company" data-constraints="@Required"
                                    class="form-control">
                         </div>
-                        <div class="form-group postfix-xl-right-40">
-                            <label for="contact-subject" class="form-label">Subject *</label>
-                            <input id="contact-subject" type="text" name="subject" data-constraints="@Required"
-                                   class="form-control">
-                        </div>
+                        
                     </div>
                     <div class="cell-lg-4 offset-top-20 offset-lg-top-0">
                         <div class="form-group postfix-xl-right-40">

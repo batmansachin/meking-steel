@@ -25,12 +25,13 @@
                 <div class="cell-md-8 cell-lg-7 cell-xl-6">
                     <div class="inset-md-right-30 inset-lg-right-0">
                         <h1>Building Components</h1>
-                        <p>Zamil Steel offers a complete line of Wall/Roof panels, panel related accessories, trims, purlins, girt, eave gutters, downspouts, curved eaves, wall flashings and louvers for a wide range of building applications.</p>
+                        <p>Meking Steel offers a complete line of Wall/Roof panels, panel related accessories, trims, purlins, girt, eave gutters, downspouts, curved eaves, wall flashings and louvers for a wide range of building applications.</p>
                         <div class="well-custom">
                             <h5>Completed over 200 projects in 7 states - on time and within budget.</h5>
                             
                         </div>
-                        <img src="{{ URL::to('public/res/images/building-components.jpg') }}" style="width: 675px; height: 200px">
+                        <img src="{{ URL::to('public/res/images/bc1.jpg') }}" style="width: 675px; height: 500px">
+                        <img src="{{ URL::to('public/res/images/bc2.jpg') }}" style="width: 675px; height: 500px">
                         <br>
                         <br>
                         <p>We offer engineering services and turnkey solutions for the supply and installation of the roof covering and wall cladding including the secondary members and all related accessories for new buildings as well as retrofitted buildings.</p>
@@ -54,18 +55,18 @@
     <div class="shell">
         <h2>View some of our recent projects</h2>
         <div class="range">
-            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/team-member-02-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Residential House at Southward St.</a></h6>
+            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/rp1.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Residential House at Pune.</a></h6>
                 <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">House</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/team-member-03-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Eastwood Hotel</a></h6>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/rp2.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Eastwood Hotel Pune</a></h6>
                 <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Hotel</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/team-member-04-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">California Mega Mall</a></h6>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/rp3.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Pune Mega Mall</a></h6>
                 <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Mall</a>
                 </p>
             </div>

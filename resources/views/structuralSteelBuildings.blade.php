@@ -36,14 +36,14 @@
                         <li>Structural Steel Buildings</li>
                         <li>High-rise Buildings</li>
                         <br>
-                        <p>Zamil Steel has been supplying fabricated structural steel and plate works for major power & desalination plants, petrochemical plants, oil & gas sector, cement plants, steel mills, high-rise building projects as well as other industrial and commercial complexes.</p>
+                        <p>Meking Steel has been supplying fabricated structural steel and plate works for major power & desalination plants, petrochemical plants, oil & gas sector, cement plants, steel mills, high-rise building projects as well as other industrial and commercial complexes.</p>
                         <br>
-                        <img src="{{ URL::to('public/res/images/IMG-0421.JPG') }}" style="width: 675px; height: 400px">
-                        
+                        <img src="{{ URL::to('public/res/images/ssb1.jpg') }}" style="width: 675px; height: 500px">
+                        <img src="{{ URL::to('public/res/images/ssb2.jpg') }}" style="width: 675px; height: 500px">
                         <br>
                         <br>
-                        <p>Zamil Steel utlizes the latest engineering software’s for Structural Steel Analysis, Connection Design, Shop Drawings Preparation and state-of-the-art Computer Numerical Coded (CNC) equipment for fabrication. The latest Radio Frequency (RF) bar coding system is also used for fabricated material tracking, control and shipping.</p>
-                        <p>Furthermore, Zamil Structural Steel Company (KSA), is proud to be the first company in Saudi Arabia and the Middle East, meeting the quality certification requirements for the Standard for Steel Building structures by the American Institute of Steel Construction (AISC), USA. Zamil Structural Steel Company – ZSSC has gained the confidence of the major international EPC contractor and has made its customers believe.</p>
+                        <p>Meking Steel utlizes the latest engineering software’s for Structural Steel Analysis, Connection Design, Shop Drawings Preparation and state-of-the-art Computer Numerical Coded (CNC) equipment for fabrication. The latest Radio Frequency (RF) bar coding system is also used for fabricated material tracking, control and shipping.</p>
+                        <p>Furthermore, Meking Structural Steel Company (KSA), is proud to be the first company in Saudi Arabia and the Middle East, meeting the quality certification requirements for the Standard for Steel Building structures by the American Institute of Steel Construction (AISC), USA. Meking Structural Steel Company – ZSSC has gained the confidence of the major international EPC contractor and has made its customers believe.</p>
 
                     </div>
                 </div>
@@ -65,19 +65,19 @@
     <div class="shell">
         <h2>View some of our recent projects</h2>
         <div class="range">
-            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/team-member-02-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Residential House at Southward St.</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">House</a>
+            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/rp1.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Residential House at Pune.</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">House</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/team-member-03-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Eastwood Hotel</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Hotel</a>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/rp2.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Eastwood Hotel Pune</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">Hotel</a>
                 </p>
             </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/team-member-04-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">California Mega Mall</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Mall</a>
+            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/rp3.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
+                <h6><a href="#">Pune Mega Mall</a></h6>
+                <p><a href="#" class="text-content">Building</a><span>,</span>  <a href="#" class="text-content">Mall</a>
                 </p>
             </div>
         </div>

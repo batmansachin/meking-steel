@@ -18,7 +18,7 @@
                                     </h1>
 
                                     <p data-caption-animate="fadeInLeft" data-caption-delay="200"
-                                       class="h6 offset-top-30 text-regent-st-blue">Meking Construction and Engineering
+                                       class="h6 offset-top-30 text-regent-st-blue">Meking Construction and Engineering 
                                         India <br
                                                 class="veil reveal-xl-block">is the leading
                                         construction company on the market. <br
@@ -113,39 +113,39 @@
                  data-stage-padding="0" data-loop="true" data-margin="15" data-mouse-drag="true" data-autoplay="false"
                  data-dots="true" data-nav-custom=".owl-custom-navigation" class="owl-carousel">
                 <div class="owl-item">
-                    <div class="product"><img src="{{ URL::asset('public/res/images/home-03-372x500.jpg') }}" alt=""
-                                              width="372" height="500" class="img-responsive"/>
+                    <div class="product"><img src="{{ URL::asset('public/res/images/home1.jpg') }}" alt=""
+                                              width="372" height="700" class="img-responsive"/>
 
-                        <div class="product-content"><a href="project-single.html" class="small">Hearst Center</a></div>
+                        <div class="product-content"><a href="project-single.html" class="small">Work House</a></div>
                     </div>
                 </div>
                 <div class="owl-item">
-                    <div class="product"><img src="{{ URL::asset('public/res/images/home-04-372x500.jpg') }}" alt=""
-                                              width="372" height="500" class="img-responsive"/><a
+                    <div class="product"><img src="{{ URL::asset('public/res/images/home2.jpg') }}" alt=""
+                                              width="372" height="700" class="img-responsive"/><a
                                 href="project-single.html" class="product-content">
-                            <div class="small">California Mega Mall</div>
+                            <div class="small">House Building</div>
                         </a>
                     </div>
                 </div>
                 <div class="owl-item">
-                    <div class="product"><img src="{{ URL::asset('public/res/images/home-05-372x500.jpg') }}" alt=""
-                                              width="372" height="500" class="img-responsive"/><a
+                    <div class="product"><img src="{{ URL::asset('public/res/images/home3.jpg') }}" alt=""
+                                              width="372" height="700" class="img-responsive"/><a
                                 href="project-single.html" class="product-content">
-                            <div class="small">Eastwood Hotel</div>
+                            <div class="small">House Building</div>
                         </a>
                     </div>
                 </div>
                 <div class="owl-item">
-                    <div class="product"><img src="{{ URL::asset('public/res/images/home-06-372x500.jpg') }}" alt=""
-                                              width="372" height="500" class="img-responsive"/><a
+                    <div class="product"><img src="{{ URL::asset('public/res/images/home4.jpg') }}" alt=""
+                                              width="372" height="700" class="img-responsive"/><a
                                 href="project-single.html" class="product-content">
-                            <div class="small">Residential House at Southward St.</div>
+                            <div class="small">Residential House at Pune </div>
                         </a>
                     </div>
                 </div>
                 <div class="owl-item">
-                    <div class="product"><img src="{{ URL::asset('public/res/images/home-07-372x500.jpg') }}" alt=""
-                                              width="372" height="500" class="img-responsive"/><a
+                    <div class="product"><img src="{{ URL::asset('public/res/images/home5.jpg') }}" alt=""
+                                              width="372" height="700" class="img-responsive"/><a
                                 href="project-single.html" class="product-content">
                             <div class="small">Westwood Child Center</div>
                         </a>

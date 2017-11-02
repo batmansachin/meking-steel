@@ -17,7 +17,7 @@
                 </div>
             </div>
         </section>
-        <section style="background-image: url( '{{ URL::asset('public/res/images/bg-about-01.jpg') }}' )" class="section-50 section-sm-top-80 section-md-top-100 section-lg-top-150 bg-image bg-revail-lg bg-top-right">
+        <section >
             <div class="shell">
                 <div class="range">
                     <div class="cell-lg-6">
@@ -26,6 +26,11 @@
                         <p>We are specialized in the construction, especially steel structure and metal curtain wall&roofing system,We are a company which is engaged in Engineering/Production/delivery and Construction the pre-fabricated(pre-engineering) steel structure, Included Light and heavy steel structures, space frame structures, multi layer structures, mezzanine structures, Meanwhile we are also devote to metal roofing and building metal curtain wall system, Al-Mg-Mn alloy sheet is our own especially products whose exclusive coating can supply long service life and external appearance.and through 12 years development,our sales area have expanded to more than 20 countries in the word.Such as French,germany,chile, columbia,brazil,thailand,Saudi Arabia,Pakistan ,india,Bangladesh,Ghana and south africa etc.</p>
                         <h3>Our reputation</h3>
                         <p>We have stand a absolute advantages in India, meanwhile, our business market have been expanded to 20 countiers around the world, such as Saudi Arabia, india, Turkey, Pakistan, Germany, Colombia, Brazil,Chile,thailand and Ghana. And we got a good feed-back from our customers there.</p>
+                    </div>
+                    <div class="cell-lg-6">
+                    <SPACER TYPE=HORIZONTAL SIZE=50>
+                        <img src="{{ URL::asset('public/res/images/about_us.jpg' ) }}" alt="" width="700" height="450" class="img-responsive"/ style="margin-top: 200px" ;>
+                        <img src="{{ URL::asset('public/res/images/about_us2.jpg' ) }}" alt="" width="700" height="450" class="img-responsive"/>
                     </div>
                 </div>
             </div>

@@ -2,145 +2,116 @@
 
 @section('content')
         <!-- Page Content-->
-<main class="page-content">
-    <!-- Classic Breadcrumbs-->
-    <section class="breadcrumb-classic">
-        <div class="rd-parallax">
-            <div data-speed="0.25" data-type="media" data-url="{{ URL::asset('public/res/images/breadcrumbs-parallax-03.jpg') }}" class="rd-parallax-layer"></div>
+      <main class="page-content">
+        <!-- Classic Breadcrumbs-->
+        <section class="breadcrumb-classic">
+          <div class="rd-parallax">
+            <div data-speed="0.25" data-type="media" data-url="{{ URL::asset('public/res/images/breadcrumbs-parallax-06.jpg') }}" class="rd-parallax-layer"></div>
             <div data-speed="0" data-type="html" class="rd-parallax-layer section-top-75 section-md-top-150 section-lg-top-260">
-                <div class="shell">
-                    <ul class="list-breadcrumb">
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li>Single service
-                        </li>
-                    </ul>
-                </div>
+              <div class="shell">
+                <ul class="list-breadcrumb">
+                  <li><a href="index.html">home</a></li>
+                  <li>Careers
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
-    </section>
-    <section class="section-75 section-md-100 section-lg-150">
-        <div class="shell">
-            <div class="range range-md-justify">
-                <div class="cell-md-8 cell-lg-7 cell-xl-6">
-                    <div class="inset-md-right-30 inset-lg-right-0">
-                        <h1>Career</h1>
-                        <p>Zamil Steel offers a complete line of Wall/Roof panels, panel related accessories, trims, purlins, girt, eave gutters, downspouts, curved eaves, wall flashings and louvers for a wide range of building applications.</p>
-                        <div class="well-custom">
-                            <h5>Completed over 200 projects in 7 states - on time and within budget.</h5>
-                            
-                        </div>
-                        <img src="{{ URL::to('public/res/images/about-02-360x404.jpg') }}" style="width: 675px; height: 400px">
-                        <img src="{{ URL::to('public/res/images/about-03-360x404.jpg') }}" style="width: 675px; height: 400px">
-                         <img src="{{ URL::to('public/res/images/post-03-700x395.jpg') }}" style="width: 675px; height: 400px">
-
-                        <br>
-                        <br>
-                        <p>We offer engineering services and turnkey solutions for the supply and installation of the roof covering and wall cladding including the secondary members and all related accessories for new buildings as well as retrofitted buildings.</p>
+          </div>
+        </section>
+        <section class="section-75 section-md-100 section-lg-150">
+          <div class="shell text-sm-left">
+            <h1>Careers</h1>
+            <div class="range offset-top-40">
+              <div class="cell-sm-7 cell-md-6">
+                <h6>Great work takes great people. At Constructo, our teams are the best. How do we keep the best? We make Constructo a rewarding place to work by offering benefits that go beyond the industry standard.</h6>
+                <p>Constructo was built on tradition, integrity, and trust. Those same values were handed down over our long history and remain the framework for how we do business. When you work at Constructo, you work alongside men and women who share these beliefs — that is something you can count on.</p>
+              </div>
+              <div class="cell-sm-5 cell-md-preffix-1 cell-md-4 cell-lg-preffix-2 cell-lg-3"><a href="#" class="btn btn-default">Get started now with us</a></div>
+            </div>
+            <div class="bg-table bg-table-well">
+              <div class="range range-sm-center">
+                <div class="col-xl-10">
+                  <h2>Working at Constructo</h2>
+                  <div class="range offset-top-20">
+                    <div class="cell-sm-6">
+                      <p class="inset-lg-right-30">When talented people join our team, they become more than just employees — they become Constructo family members. Because we are 100% employee owned, each of us has a stake in Constructo’s success. We know that our actions directly impact our customers and our bottom line.</p>
                     </div>
-                </div>
-                <div class="cell-md-4 cell-lg-4 cell-xl-3">
-                    <div class="well-custom-1">
-                        <h4 class="text-regular">Our Services</h4>
-                        <ul class="list-xs list-marked">
-                            <li class="active"><a href="#">Pre Engineered Buildings</a></li>
-                            <li><a href="#" class="text-content">Design-Build</a></li>
-                            <li><a href="#" class="text-content">Pre-Construction</a></li>
-                            <li><a href="#" class="text-content">Interiors</a></li>
-                        </ul>
+                    <div class="cell-sm-6">
+                      <p class="inset-lg-right-30">That is why we successfully complete every aspect of our work as a team – from estimating the details of a new project to placing thousands of yards of concrete. We teach each other and learn from each other to get the job done and get it done right.</p>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </section>
-    <section class="section-30"></section>
-    <div class="shell">
-        <h2>View some of our recent projects</h2>
-        <div class="range">
-            <div class="cell-md-4 cell-sm-6"><img src="{{ URL::asset('public/res/images/team-member-02-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Residential House at Southward St.</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">House</a>
-                </p>
-            </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-sm-top-0"><img src="{{ URL::asset('public/res/images/team-member-03-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">Eastwood Hotel</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Hotel</a>
-                </p>
-            </div>
-            <div class="cell-md-4 cell-sm-6 offset-top-40 offset-md-top-0"><img src="{{ URL::asset('public/res/images/team-member-04-485x555.jpg' ) }}" alt="" width="485" height="555" class="img-responsive"/>
-                <h6><a href="#">California Mega Mall</a></h6>
-                <p><a href="#" class="text-content">Building</a><span>,</span>	<a href="#" class="text-content">Mall</a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <section class="section-75 section-md-100 section-lg-120 section-xl-130">
-        <div class="shell">
-            <h2><span class="small">Testimonials</span>What clients say about our company</h2>
             <div class="range">
-                <div class="cell-md-6">
-                    <blockquote class="quote-default text-sm-left">
-                        <h5>
-                            <q>“ When we needed a design and construction specialists, Constructo was there for us. We had a vision and an idea of how much we wanted to spend and they made all of that happen. ”</q>
-                        </h5>
-                        <h6 class="offset-top-30 offset-md-top-45">
-                            <cite>Peter Handerson</cite>
-                        </h6><span class="offset-top-10 small-xs">CEO, Firetree Co.</span>
-                    </blockquote>
-                </div>
-                <div class="cell-md-6">
-                    <blockquote class="quote-default quote-default-variant-1 text-sm-left">
-                        <h5>
-                            <q>“ The pressure was put on this team from the day we broke ground and they heeded the call. These dedicated young construction professionals show what great teamwork is all about. ”</q>
-                        </h5>
-                        <h6 class="offset-top-30 offset-md-top-45">
-                            <cite>Jim Johnson</cite>
-                        </h6><span class="offset-top-10 small-xs">Head manager, Frober Design</span>
-                    </blockquote>
-                </div>
+              <div class="cell-md-8 cell-lg-6">
+                <h2>Current opportunities</h2>
+                <p>Our diverse capabilities provide employees the ability to work on projects of all sizes and types — from a small dorm renovation in Maine to a major treatment plant expansion in Georgia. Whether you want to estimate a project, create schedules, or transform drawings to reality, we provide opportunities in the office and in the field to suit a wide range of interests and specialties.</p>
+                <p>We are looking for dedicated employees. Are you ready for a career that is anything but average? This might be the place for you.</p>
+              </div>
             </div>
-        </div>
-    </section>
-    <section class="section-50 section-md-75 section-md-100 section-lg-120 section-xl-150 bg-wild-sand">
-        <div class="shell text-left">
-            <h2><span class="small">contact us</span>If you have any questions, just fill in the contact form, and we will answer you shortly.</h2>
-            <form data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="rd-mailform text-left">
-                <div class="range offset-top-40 offset-md-top-60">
-                    <div class="cell-lg-4 cell-md-6">
-                        <div class="form-group postfix-xl-right-40">
-                            <label for="contact-name" class="form-label">Name *</label>
-                            <input id="contact-name" type="text" name="name" data-constraints="@Required" class="form-control">
-                        </div>
-                        <div class="form-group postfix-xl-right-40">
-                            <label for="contact-email" class="form-label">E-mail *</label>
-                            <input id="contact-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
-                        </div>
+            <div class="range">
+              <div class="cell-xs-12">
+                <h2>Rewards and benefits</h2>
+              </div>
+              <div class="cell-sm-6 offset-top-40">
+                <ul class="list list-xl">
+                  <li>
+                    <h5>Health and Wellness</h5>
+                    <p class="inset-sm-right-70">Constructo offers all its employees extensive healthcare and wellness benefits throughout a year.</p>
+                  </li>
+                  <li>
+                    <h5>Time Off / Paid Leave</h5>
+                    <p class="inset-sm-right-70">If you require some time off or need to look after your relative without losing your salary, it is possible if you are working at Constructo.</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="cell-sm-6 offset-top-40">
+                <ul class="list list-xl">
+                  <li>
+                    <h5>Retirement and Financial Protection</h5>
+                    <p class="inset-sm-right-70">We provide financial and social protection to all our team members, and with us you can be sure you will have a well-provided retirement.</p>
+                  </li>
+                  <li>
+                    <h5>Employee Development</h5>
+                    <p class="inset-sm-right-70">We encourage our employees to develop and improve their skills so that they could benefit from their work at our company.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="range">
+              <div class="cell-md-8 cell-lg-6">
+                <h2>Hiring process</h2>
+                <ol class="list list-index list-xl">
+                  <li>In order to be considered for employment at Constructo, applicants must meet all of the minimum position requirements related to education/training, certification and experience.</li>
+                  <li>If found suitable, HR Department prepares and issues the letter of appointment to the candidate. After the candidate accepts the offer, further proceedings are carried out towards satisfying the statutory requirements.</li>
+                  <li>We conduct an induction program for all our new employees within their first week of employment. It is a combination of general information about the Company as well as specifics regarding the employee’s job role.</li>
+                </ol>
+              </div>
+            </div>
+            <div class="bg-table bg-table-well">
+              <div class="range range-sm-center">
+                <div class="col-xl-10">
+                  <h2>Recruitment FAQ</h2>
+                  <div class="range offset-top-30">
+                    <div class="cell-sm-6">
+                      <div class="inset-lg-right-30 inset-xl-right-40">
+                        <h5 class="text-regular font-default text-spacing-0">Where can I find Constructo’s current list of open positions?</h5>
+                        <p>A list of open positions will be available in our new online job application facility which will be launched soon. In the meantime, if you are interested in working for us, please submit your CV to info@demolink.org and we will contact you.</p>
+                      </div>
                     </div>
-                    <div class="cell-lg-4 cell-md-6 offset-top-20 offset-md-top-0">
-                        <div class="form-group postfix-xl-right-40">
-                            <label for="contact-company" class="form-label">Company *</label>
-                            <input id="contact-company" type="text" name="company" data-constraints="@Required" class="form-control">
-                        </div>
-                        <div class="form-group postfix-xl-right-40">
-                            <label for="contact-subject" class="form-label">Subject *</label>
-                            <input id="contact-subject" type="text" name="subject" data-constraints="@Required" class="form-control">
-                        </div>
+                    <div class="cell-sm-6">
+                      <div class="inset-lg-right-30">
+                        <h5 class="text-regular font-default text-spacing-0">How long will it take to receive an update after an interview?</h5>
+                        <p>Our HR Department will call you within a week of attending the interview regarding the status of your application. Unsuccessful candidates will receive a regret letter through email. You can read more info about it on our website.</p>
+                      </div>
                     </div>
-                    <div class="cell-lg-4 offset-top-20 offset-lg-top-0">
-                        <div class="form-group postfix-xl-right-40">
-                            <label for="contact-message" class="form-label">Message *</label>
-                            <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
-                        </div>
-                    </div>
+                    <div class="cell-xs-12 offset-top-40"><a href="#" class="link-custom">Read more questions</a></div>
+                  </div>
                 </div>
-                <button type="submit" class="btn btn-form btn-default">Send message</button>
-            </form>
-        </div>
-    </section>
-    <section class="section-30 section-sm-75">
-        <div class="shell">
-            <div class="range"></div>
-        </div>
-    </section>
-</main>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     @endsection
