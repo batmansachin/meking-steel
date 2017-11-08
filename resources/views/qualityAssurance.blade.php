@@ -44,8 +44,8 @@
                         </ul>
                     </div>
                 </div>
-                <img src="{{ URL::to('public/res/images/qs1.jpg') }}" style="width: 775px; height: 450px">
-                <img src="{{ URL::to('public/res/images/qs2.jpg') }}" style="width: 775px; height: 450px">
+                <img src="{{ URL::to('public/res/images/iso1.jpg') }}" style="width: 775px; height: 850px">
+                
             </div>
         </div>
     </section>

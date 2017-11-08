@@ -30,8 +30,8 @@
                             <h5>Completed over 200 projects in 7 states - on time and within budget.</h5>
                             
                         </div>
+                        <img src="{{ URL::to('public/res/images/bc.jpg') }}" style="width: 675px; height: 500px">
                         <img src="{{ URL::to('public/res/images/bc1.jpg') }}" style="width: 675px; height: 500px">
-                        <img src="{{ URL::to('public/res/images/bc2.jpg') }}" style="width: 675px; height: 500px">
                         <br>
                         <br>
                         <p>We offer engineering services and turnkey solutions for the supply and installation of the roof covering and wall cladding including the secondary members and all related accessories for new buildings as well as retrofitted buildings.</p>

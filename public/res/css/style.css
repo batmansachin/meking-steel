@@ -38669,6 +38669,7 @@ html .page .isotope-filters .list-isotop > li > a:hover, html .page .isotope-fil
 }
 
 .rd-navbar-static .rd-navbar-panel {
+  padding-top: 10px;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;

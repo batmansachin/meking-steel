@@ -54,8 +54,8 @@
                         </button>
                         <!-- RD Navbar Brand-->
                         <div class="rd-navbar-brand"><a href="#" class="brand-name"><img
-                                        src="{{ URL::asset('public/res/images/Logo.jpg') }}" width="100"
-                                        height="43" alt="MEKING STEEL"><span style="color: #845f57; font-size: 24px">MEKING STEEL</span></a>
+                                        src="{{ URL::asset('public/res/images/Logo.jpg') }}" width="90"
+                                        height="33" alt="MEKING STEEL"><span style="color: #3c312f;font-weight: 200; font-size: 24px">&nbsp;MEKING STEEL</span></a>
                         </div>
                     </div>
                     <div class="rd-navbar-nav-wrap">
@@ -132,8 +132,8 @@
                     <div class="cell-sm-6 cell-lg-4 cell-xl-3 offset-top-40 offset-lg-top-0"><span
                                 class="small text-spacing-340 text-white text-uppercase text-bold">INFORMATION</span>
                         <ul class="list list-marked offset-top-20 list-xs">
-                            <li><a href="about.html" class="text-white">About us</a></li>
-                            <li><a href="services.html" class="text-white">Our services</a></li>
+                            <li><a href="{{route('about')}}" class="text-white">About us</a></li>
+                            <li><a href="{{route('services')}}" class="text-white">Our services</a></li>
                         </ul>
                     </div>
                     <div class="cell-sm-6 cell-lg-4 cell-xl-3 offset-top-40 offset-lg-top-0"><span
@@ -145,22 +145,23 @@
                             <li>
                                 <div class="unit unit-horizontal unit-spacing-xs">
                                     <div class="unit-left"><span class="icon icon-primary fa-map-marker"></span></div>
-                                    <div class="unit-body"><a href="#" class="text-gray-lighter">1901 Avenue of the
-                                            Stars Suite 200 Washington, CA 90067</a></div>
+                                    <div class="unit-body"><a href="#" class="text-gray-lighter">Prestige Palladium Bayan
+                                    5th Floor – Executive Centre
+                                    129-140 Greams Road  Chennai-600006   TN  India</a></div>
                                 </div>
                             </li>
                             <li>
                                 <div class="unit unit-horizontal unit-spacing-xs">
                                     <div class="unit-left"><span class="icon icon-primary fa-phone"></span></div>
-                                    <div class="unit-body"><a href="callto:#" class="text-gray-lighter">646-325-0357</a>
+                                    <div class="unit-body"><a href="callto:#" class="text-gray-lighter">Ph: 044-46756270   M- 7358789910</a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="unit unit-horizontal unit-spacing-xs">
                                     <div class="unit-left"><span class="icon icon-primary fa-envelope"></span></div>
-                                    <div class="unit-body"><a href="mailto:#" class="text-gray-lighter">mail@demolink
-                                            .org</a></div>
+                                    <div class="unit-body"><a href="mailto:#" class="text-gray-lighter">www.mekingindia.com
+                                            </a></div>
                                 </div>
                             </li>
                         </ul>

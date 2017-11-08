@@ -23,6 +23,7 @@ class ContactController extends Controller
        // dd($email);
 
 	      \Mail::to('sachin.kumar@innovalabs.tech')->send(new ContactQuery($request->all()));
+         
 
       /* Mail::send('/mails.query', ['name' => $name,], function ($message)
         {
